@@ -5,9 +5,9 @@ document.querySelector('#add').onclick = function(){
     } else{
         document.querySelector('#writhText').innerHTML += `
             <ul class="_li-text">
-                <li id="taskname">
+                <span id="taskname">
                     ${document.querySelector('#newtext>input').value}
-                </li>
+                </span>
                 <button class="delete">
                 Delete
                 </button>
