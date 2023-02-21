@@ -1,0 +1,101 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background: #dfc411;
+}
+main > .container {
+  margin: 0 auto;
+  width: 50%;
+}
+main > .container h1 {
+  margin-top: 30px;
+  text-align: center;
+}
+main > .container > #newtext {
+  position: relative;
+  padding: 30px 20px;
+}
+main > .container > #newtext > input {
+  width: 85%;
+  height: 45px;
+  padding: 12px;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+}
+main > .container > #newtext > input > input:focus {
+  outline: none;
+  border-color: #ec0d1c;
+}
+main > .container > #newtext > button {
+  position: relative;
+  top: 9px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #0b7218;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  width: 14%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+main > .container > #newtext > button > i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+main > .container > #writhText {
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  background-color: inherit;
+  padding: 30px 20px;
+  /*  margin: 10px 0 0  20px; */
+}
+
+._li-text {
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #939697;
+  cursor: pointer;
+  background-color: #c5e1e6;
+  height: 50px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  display: flex;
+}
+._li-text > span {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+._li-text > button {
+  background-color: #b60a0a;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 100%;
+  width: 80px;
+  font-size: 24px;
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */
